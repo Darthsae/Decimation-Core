@@ -37,7 +37,7 @@ public class DecimationCoreBrewingHandler extends DecimationCoreModElements.ModE
     	Class clazz = net.minecraft.potion.PotionBrewing.class;
     	Method mth = ObfuscationReflectionHelper.findMethod(clazz, "func_193357_a", Potion.class, 
 		Item.class, Potion.class);
-    	Object obj = mth.invoke(null, basePotion, ingredient, resultPotion);
+    	Object obj = mth.invoke(null, Potions.AWKWARD, Items.IRON_BLOCK, Potions.POISON);
     	// To add more recipes, you can copy the line above, for ex.
     	// mth.invoke(null, potion2, item2, potion3);
 	}catch (Throwable e) {
