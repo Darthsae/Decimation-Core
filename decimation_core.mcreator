@@ -51,6 +51,27 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ancients_table"
+    },
+    {
+      "name": "AncientsTableGUICraftPressed",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancients_table_gui_craft_pressed",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "AncientsTableGUI",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancients_table_gui"
     }
   ],
   "variable_elements": [],
