@@ -57,7 +57,7 @@ import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.DirectionalBlock;
+import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -98,7 +98,7 @@ public class AncientsTableBlock extends DecimationCoreModElements.ModElement {
 		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
 	}
 	public static class CustomBlock extends Block {
-		public static final DirectionProperty FACING = DirectionalBlock.FACING;
+		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0).harvestLevel(1)
 					.harvestTool(ToolType.AXE).notSolid());
@@ -112,22 +112,25 @@ public class AncientsTableBlock extends DecimationCoreModElements.ModElement {
 		}
 
 		@Override
+		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
+			return true;
+		}
+
+		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vec3d offset = state.getOffset(world, pos);
 			switch ((Direction) state.get(FACING)) {
+				case UP :
+				case DOWN :
 				case SOUTH :
 				default :
-					return VoxelShapes.create(1D, 0D, 1D, 0D, 0.7D, 0D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(1D, 0D, 0.7D, 0D, 0.4D, 0.3D).withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.create(0D, 0D, 0D, 1D, 0.7D, 1D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(0D, 0D, 0.3D, 1D, 0.4D, 0.7D).withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.create(0D, 0D, 1D, 1D, 0.7D, 0D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(0.3D, 0D, 1D, 0.7D, 0.4D, 0D).withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.create(1D, 0D, 0D, 0D, 0.7D, 1D).withOffset(offset.x, offset.y, offset.z);
-				case UP :
-					return VoxelShapes.create(0D, 1D, 0D, 1D, 0D, 0.7D).withOffset(offset.x, offset.y, offset.z);
-				case DOWN :
-					return VoxelShapes.create(0D, 0D, 1D, 1D, 1D, 0.3D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(0.7D, 0D, 0D, 0.3D, 0.4D, 1D).withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -146,7 +149,7 @@ public class AncientsTableBlock extends DecimationCoreModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
-			return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
+			return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().getOpposite());
 		}
 
 		@Override
