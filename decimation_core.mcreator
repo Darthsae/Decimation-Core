@@ -42,6 +42,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "DecimationCoreBrewingHandler",
+      "type": "code",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "decimation_core_brewing_handler"
     }
   ],
   "variable_elements": [],
