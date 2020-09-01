@@ -21,7 +21,11 @@ public class TetanusOnPotionActiveTickProcedure extends DecimationCoreModElement
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if ((Math.random() < 0.1)) {
-			entity.attackEntityFrom(DamageSource.WITHER, (float) 1);
+			if ((Math.random() < 0.1)) {
+				if ((Math.random() < 0.1)) {
+					entity.attackEntityFrom(DamageSource.WITHER, (float) 1);
+				}
+			}
 		}
 	}
 }
