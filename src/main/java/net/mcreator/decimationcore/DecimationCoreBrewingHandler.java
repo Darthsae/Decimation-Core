@@ -21,7 +21,14 @@ package net.mcreator.decimationcore;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.Potions;
+
+import java.lang.reflect.Method;
 @DecimationCoreModElements.ModElement.Tag
+
 public class DecimationCoreBrewingHandler extends DecimationCoreModElements.ModElement {
 	/**
 	 * Do not remove this constructor
