@@ -129,13 +129,13 @@ public class AncientsTableBlock extends DecimationCoreModElements.ModElement {
 				case DOWN :
 				case SOUTH :
 				default :
-					return VoxelShapes.create(1D, 0D, 0.7D, 0D, 0.4D, 0.3D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(1D, 0D, 0.8D, 0D, 0.5D, 0.2000000000000001D).withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.create(0D, 0D, 0.3D, 1D, 0.4D, 0.7D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(0D, 0D, 0.2D, 1D, 0.5D, 0.7999999999999999D).withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.create(0.3D, 0D, 1D, 0.7D, 0.4D, 0D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(0.2D, 0D, 1D, 0.7999999999999999D, 0.5D, 0D).withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.create(0.7D, 0D, 0D, 0.3D, 0.4D, 1D).withOffset(offset.x, offset.y, offset.z);
+					return VoxelShapes.create(0.8D, 0D, 0D, 0.2000000000000001D, 0.5D, 1D).withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 

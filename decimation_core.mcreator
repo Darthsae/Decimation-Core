@@ -72,6 +72,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ancients_table_gui"
+    },
+    {
+      "name": "LostForest",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lost_forest"
+    },
+    {
+      "name": "LostCitadel",
+      "type": "structure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lost_citadel"
     }
   ],
   "variable_elements": [],

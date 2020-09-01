@@ -1,0 +1,67 @@
+{
+  "_fv": 11,
+  "_type": "biome",
+  "definition": {
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "generateLakes": true,
+    "treeType": 0,
+    "vanillaTreeType": "Big trees",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -12576000,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -12576000,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12576000,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 6,
+    "grassPerChunk": 5,
+    "flowersPerChunk": 1,
+    "mushroomsPerChunk": 5,
+    "bigMushroomsChunk": 1,
+    "sandPathcesPerChunk": 2,
+    "gravelPatchesPerChunk": 2,
+    "reedsPerChunk": 4,
+    "cactiPerChunk": 2,
+    "rainingPossibility": 0.7999999999999999,
+    "temperature": 1.3,
+    "baseHeight": 0.2,
+    "heightVariation": 0.30000000000000004,
+    "spawnBiome": true,
+    "biomeWeight": 5,
+    "biomeType": "WARM",
+    "biomeCategory": "FOREST",
+    "parent": {
+      "value": "forest"
+    },
+    "biomeDictionaryTypes": [
+      "FOREST",
+      "RARE",
+      "SANDY"
+    ],
+    "spawnEntries": []
+  }
+}
