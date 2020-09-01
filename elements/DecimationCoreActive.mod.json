@@ -1,0 +1,51 @@
+{
+  "_fv": 11,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 310,
+    "height": 210,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "decimation_mod.png",
+          "use1Xscale": false,
+          "name": "decimation_mod.png",
+          "x": 63,
+          "y": 20
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "T",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "T",
+          "x": 61,
+          "y": 212
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "T",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "T",
+          "x": 359,
+          "y": 17
+        }
+      }
+    ]
+  }
+}
