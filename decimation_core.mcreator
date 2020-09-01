@@ -116,6 +116,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "RustyIronSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rusty_iron_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RustyIronSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rusty_iron_sword"
+    },
+    {
+      "name": "KingGuardSkeletonLootTable",
+      "type": "loottable",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_guard_skeleton_loot_table"
+    },
+    {
+      "name": "KingGuardSkeleton",
+      "type": "mob",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "king_guard_skeleton"
     }
   ],
   "variable_elements": [],
@@ -127,6 +171,9 @@
       "item.minecraft.potion.effect.tetanus": "Tetanus",
       "item.minecraft.tipped_arrow.effect.tetanus": "Arrow of Tetanus",
       "item.minecraft.splash_potion.effect.tetanus": "Splash Tetanus",
+      "item.decimation_core.rusty_iron_sword": "Rusty Iron Sword",
+      "entity.decimation_core.king_guard_skeleton": "King Guard Skeleton",
+      "item.decimation_core.king_guard_skeleton_spawn_egg": "King Guard Skeleton Spawn Egg",
       "block.decimation_core.ancients_table": "Ancients Table"
     }
   },
