@@ -90,12 +90,43 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lost_citadel"
+    },
+    {
+      "name": "Tetanus",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetanus"
+    },
+    {
+      "name": "TetanusOnPotionActiveTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetanus_on_potion_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.minecraft.lingering_potion.effect.tetanus": "Lingering Tetanus",
+      "effect.tetanus": "Tetanus",
+      "item.minecraft.potion.effect.tetanus": "Tetanus",
+      "item.minecraft.tipped_arrow.effect.tetanus": "Arrow of Tetanus",
+      "item.minecraft.splash_potion.effect.tetanus": "Splash Tetanus",
       "block.decimation_core.ancients_table": "Ancients Table"
     }
   },
@@ -112,6 +143,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.decimationcore",
     "lockBaseModFiles": false
   },

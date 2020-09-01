@@ -1,0 +1,22 @@
+{
+  "_fv": 11,
+  "_type": "potion",
+  "definition": {
+    "name": "Tetanus",
+    "effectName": "Tetanus",
+    "icon": "tetanus.png",
+    "color": {
+      "value": -7985908,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "TetanusOnPotionActiveTick"
+    }
+  }
+}
