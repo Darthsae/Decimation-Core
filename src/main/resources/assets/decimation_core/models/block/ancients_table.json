@@ -1,0 +1,8 @@
+{
+  "parent": "decimation_core:custom/ancients_table",
+  "textures": {
+    "all": "decimation_core:blocks/ancients_table",
+    "particle": "decimation_core:blocks/ancients_table",
+    "0": "decimation_core:blocks/ancients_table"
+  }
+}

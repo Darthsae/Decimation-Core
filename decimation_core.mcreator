@@ -42,12 +42,23 @@
           }
         ]
       }
+    },
+    {
+      "name": "AncientsTable",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ancients_table"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.decimation_core.ancients_table": "Ancients Table"
+    }
   },
   "workspaceSettings": {
     "modid": "decimation_core",
