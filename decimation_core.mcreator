@@ -47,7 +47,7 @@
       "name": "DecimationCoreBrewingHandler",
       "type": "code",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "ids": {},
       "registry_name": "decimation_core_brewing_handler"
