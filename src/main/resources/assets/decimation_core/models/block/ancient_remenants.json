@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "decimation_core:blocks/ancient_debris_top",
+    "particle": "decimation_core:blocks/ancient_debris_top"
+  }
+}
