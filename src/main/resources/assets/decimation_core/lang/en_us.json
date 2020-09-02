@@ -1,16 +1,18 @@
 {
   "item.minecraft.lingering_potion.effect.tetanus": "Lingering Tetanus",
   "effect.tetanus": "Tetanus",
-  "item.minecraft.potion.effect.tetanus": "Tetanus",
   "item.decimation_core.ancient_golem_spawn_egg": "Ancient Golem Spawn Egg",
+  "item.minecraft.potion.effect.tetanus": "Tetanus",
   "item.minecraft.tipped_arrow.effect.tetanus": "Arrow of Tetanus",
   "item.decimation_core.rusty_iron_sword": "Rusty Iron Sword",
   "entity.decimation_core.king_guard_skeleton": "King Guard Skeleton",
   "item.decimation_core.king_guard_skeleton_spawn_egg": "King Guard Skeleton Spawn Egg",
   "block.decimation_core.ancients_table": "Ancients Table",
+  "entity.decimation_core.void_stalker": "Void Stalker",
   "item.decimation_core.ancient_scrap": "Ancient Scrap",
   "block.decimation_core.ancient_remenants": "Ancient Remenants",
   "item.minecraft.splash_potion.effect.tetanus": "Splash Tetanus",
   "block.decimation_core.lost_brush": "Lost Brush",
-  "entity.decimation_core.ancient_golem": "Ancient Golem"
+  "entity.decimation_core.ancient_golem": "Ancient Golem",
+  "item.decimation_core.void_stalker_spawn_egg": "Void Stalker Spawn Egg"
 }
